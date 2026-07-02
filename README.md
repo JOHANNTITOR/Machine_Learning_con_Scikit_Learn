@@ -283,7 +283,7 @@ La línea representa la mejor separación posible.
 
 ---
 
-👥 ## KNeighborsClassifier
+## 👥 KNeighborsClassifier
 
 🧠 Idea principal
 
@@ -343,7 +343,7 @@ En lugar de probar cientos de combinaciones manualmente...
 
 ---
 
-📊 ## accuracy_score
+## 📊 accuracy_score
 
 Mide el porcentaje de aciertos.
 
@@ -363,7 +363,7 @@ Mientras más cercano a 100%, mejor.
 
 ---
 
-##📋 classification_report
+## 📋 classification_report
 
 Es un informe mucho más completo.
 
