@@ -47,17 +47,40 @@ Nuestro objetivo será entrenar un modelo que pueda responder automáticamente:
 
 ## 🛣️ Flujo completo del proyecto
 
-graph TD
-    A["Datos"] --> B["train_test_split"]
-    B --> C["Entrenamiento"]
-    B --> D["Prueba"]
-    C --> E["StandardScaler"]
-    E --> F["Pipeline"]
-    F --> G["Modelo"]
-    G --> H["RandomizedSearchCV"]
-    H --> I["Modelo entrenado"]
-    I --> J["Predicciones"]
-    J --> K["Evaluación"]
+```mermaid
+flowchart TD
+
+    subgraph Preparación
+        A["📂 Datos"]
+        B["✂️ train_test_split"]
+        C["🏋️ Entrenamiento"]
+        D["🧪 Prueba"]
+    end
+
+    subgraph Entrenamiento
+        E["⚖️ StandardScaler"]
+        F["🔄 Pipeline"]
+        G["🤖 Modelo"]
+        H["🎯 RandomizedSearchCV"]
+        I["🧠 Modelo entrenado"]
+    end
+
+    subgraph Predicción
+        J["🔮 Predicciones"]
+        K["📊 Evaluación"]
+    end
+
+    A --> B
+    B --> C
+    B --> D
+    C --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+```
 
 ---
 
