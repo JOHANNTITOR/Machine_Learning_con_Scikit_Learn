@@ -398,13 +398,13 @@ Cuanto más cercano a 1, mejor será el modelo.
 ---
 
 ## 🏆 Comparación de algoritmos
-
-🤖 Algoritmo| ⭐ Dificultad| ⚡ Velocidad| 🎯 Precisión
-📈 Logistic Regression| ⭐| ⭐⭐⭐⭐⭐| ⭐⭐⭐
-🌳 Random Forest| ⭐⭐| ⭐⭐⭐⭐| ⭐⭐⭐⭐⭐
-🚀 Gradient Boosting| ⭐⭐⭐| ⭐⭐⭐| ⭐⭐⭐⭐⭐
-📐 SVC| ⭐⭐⭐| ⭐⭐| ⭐⭐⭐⭐
-👥 KNN| ⭐| ⭐⭐| ⭐⭐⭐
+| 🤖 Algoritmo | ⭐ Dificultad | ⚡ Velocidad | 🎯 Precisión |
+|:------------|:------------:|:-----------:|:------------:|
+| 📈 Logistic Regression | ⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| 🌳 Random Forest | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 🚀 Gradient Boosting | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 📐 SVC | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ |
+| 👥 KNeighborsClassifier (KNN) | ⭐ | ⭐⭐ | ⭐⭐⭐ |
 
 ---
 
