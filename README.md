@@ -48,16 +48,16 @@ Nuestro objetivo será entrenar un modelo que pueda responder automáticamente:
 ## 🛣️ Flujo completo del proyecto
 
 graph TD
-    A["📂 Datos"] --> B["✂️ train_test_split"]
-    B --> C["🏋️ Entrenamiento"]
-    B --> D["🧪 Prueba"]
-    C --> E["⚖️ StandardScaler"]
-    E --> F["🔄 Pipeline"]
-    F --> G["🤖 Modelo<br/>LogisticRegression<br/>RandomForest<br/>GradientBoosting<br/>SVC o KNN"]
-    G --> H["🎯 RandomizedSearchCV"]
-    H --> I["🧠 Modelo entrenado"]
-    I --> J["🔮 Predicciones"]
-    J --> K["📊 Evaluación"]
+    A["Datos"] --> B["train_test_split"]
+    B --> C["Entrenamiento"]
+    B --> D["Prueba"]
+    C --> E["StandardScaler"]
+    E --> F["Pipeline"]
+    F --> G["Modelo"]
+    G --> H["RandomizedSearchCV"]
+    H --> I["Modelo entrenado"]
+    I --> J["Predicciones"]
+    J --> K["Evaluación"]
 
 ---
 
