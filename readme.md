@@ -1,12 +1,12 @@
-🚀🤖 Machine Learning con Scikit-Learn
+🚀🤖 # Machine Learning con Scikit-Learn
 
-📚 Guía práctica de los algoritmos de clasificación más utilizados
+📚 ## Guía práctica de los algoritmos de clasificación más utilizados
 
 «💡 Este documento explica de forma sencilla cómo funciona un proyecto de Machine Learning utilizando Scikit-Learn, desde la preparación de los datos hasta la evaluación del modelo.»
 
 ---
 
-📖 Contenido
+📖 ## Contenido
 
 - 📌 Problema de ejemplo
 - ✂️ "train_test_split"
@@ -25,7 +25,7 @@
 
 ---
 
-🎯 Problema de ejemplo
+🎯 ## Problema de ejemplo
 
 Imaginemos que una empresa quiere saber si un cliente cancelará su suscripción.
 
@@ -115,7 +115,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 ⚖️ StandardScaler
 
-🎯 ¿Qué problema resuelve?
+🎯 ## ¿Qué problema resuelve?
 
 Las variables poseen escalas diferentes.
 
@@ -135,7 +135,7 @@ Gasto   -1.8 ... 1.7
 
 ---
 
-🔄 Pipeline
+🔄 ## Pipeline
 
 Un Pipeline conecta automáticamente todos los pasos.
 
@@ -162,7 +162,7 @@ Pipeline([
 
 ---
 
-📈 LogisticRegression
+📈 ## LogisticRegression
 
 🧠 Idea principal
 
@@ -190,7 +190,7 @@ Probabilidad = 0.91
 
 ---
 
-🌳 RandomForestClassifier
+🌳 ## RandomForestClassifier
 
 🧠 Idea principal
 
@@ -222,7 +222,7 @@ Los errores individuales se compensan entre sí.
 
 ---
 
-🚀 GradientBoostingClassifier
+🚀 ## GradientBoostingClassifier
 
 🧠 Idea principal
 
@@ -256,7 +256,7 @@ Es como un profesor corrigiendo continuamente a un estudiante.
 
 ---
 
-📐 SVC (Support Vector Classifier)
+📐 ## SVC (Support Vector Classifier)
 
 🧠 Idea principal
 
@@ -277,7 +277,7 @@ La línea representa la mejor separación posible.
 
 ---
 
-👥 KNeighborsClassifier
+👥 ## KNeighborsClassifier
 
 🧠 Idea principal
 
@@ -307,7 +307,7 @@ Es uno de los algoritmos más intuitivos.
 
 ---
 
-🎯 RandomizedSearchCV
+🎯 ## RandomizedSearchCV
 
 🤔 ¿Qué hace?
 
@@ -337,7 +337,7 @@ En lugar de probar cientos de combinaciones manualmente...
 
 ---
 
-📊 accuracy_score
+📊 ## accuracy_score
 
 Mide el porcentaje de aciertos.
 
@@ -357,7 +357,7 @@ Mientras más cercano a 100%, mejor.
 
 ---
 
-📋 classification_report
+📋 ## classification_report
 
 Es un informe mucho más completo.
 
@@ -367,7 +367,7 @@ No              0.95        0.97        0.96
 
 Sí              0.93        0.90        0.91
 
-📌 Precision
+📌 ##  Precision
 
 👉 De todas las veces que el modelo dijo Sí...
 
@@ -375,7 +375,7 @@ Sí              0.93        0.90        0.91
 
 ---
 
-📌 Recall
+📌 ## Recall
 
 👉 De todos los casos realmente positivos...
 
@@ -383,7 +383,7 @@ Sí              0.93        0.90        0.91
 
 ---
 
-📌 F1-score
+📌 ## F1-score
 
 Es un equilibrio entre Precision y Recall.
 
@@ -391,7 +391,7 @@ Cuanto más cercano a 1, mejor será el modelo.
 
 ---
 
-🏆 Comparación de algoritmos
+🏆 ## Comparación de algoritmos
 
 🤖 Algoritmo| ⭐ Dificultad| ⚡ Velocidad| 🎯 Precisión
 📈 Logistic Regression| ⭐| ⭐⭐⭐⭐⭐| ⭐⭐⭐
@@ -402,7 +402,7 @@ Cuanto más cercano a 1, mejor será el modelo.
 
 ---
 
-🔄 Resumen visual
+🔄 ## Resumen visual
 
 📂 Datos
       │
@@ -436,7 +436,7 @@ Cuanto más cercano a 1, mejor será el modelo.
 
 ---
 
-🎉 Conclusión
+🎉 ## Conclusión
 
 Un proyecto de Machine Learning no consiste únicamente en entrenar un algoritmo.
 
