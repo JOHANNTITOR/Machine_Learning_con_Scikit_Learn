@@ -1,5 +1,5 @@
 
-# 🚀 Machine Learning con Scikit-Learn
+# Machine Learning con Scikit-Learn
 
 ## 📚 Guía práctica de los algoritmos de clasificación más utilizados
 
