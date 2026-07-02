@@ -409,36 +409,33 @@ Cuanto más cercano a 1, mejor será el modelo.
 ---
 
 ## 🔄 Resumen visual
+```mermaid
+flowchart TD
 
-📂 Datos
-      │
-      ▼
-✂️ train_test_split
-      │
-      ▼
-⚖️ StandardScaler
-      │
-      ▼
-🔄 Pipeline
-      │
-      ▼
-🤖 Modelo
-      │
-      ▼
-🎯 RandomizedSearchCV
-      │
-      ▼
-🧠 Modelo entrenado
-      │
-      ▼
-🔮 Predicciones
-      │
-      ▼
-📊 accuracy_score
-📋 classification_report
-      │
-      ▼
-🏆 Mejor modelo
+    A["📂 Datos"]
+    B["✂️ train_test_split"]
+    C["⚖️ StandardScaler"]
+    D["🔄 Pipeline"]
+    E["🤖 Modelo"]
+    F["🎯 RandomizedSearchCV"]
+    G["🧠 Modelo entrenado"]
+    H["🔮 Predicciones"]
+    I["📊 accuracy_score"]
+    J["📋 classification_report"]
+    K["🏆 Mejor modelo"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    H --> J
+    I --> K
+    J --> K
+```o
 
 ---
 
