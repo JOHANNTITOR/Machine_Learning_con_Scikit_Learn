@@ -412,17 +412,17 @@ Cuanto más cercano a 1, mejor será el modelo.
 ```mermaid
 flowchart TD
 
-    A["📂 Datos"]
-    B["✂️ train_test_split"]
-    C["⚖️ StandardScaler"]
-    D["🔄 Pipeline"]
-    E["🤖 Modelo"]
-    F["🎯 RandomizedSearchCV"]
-    G["🧠 Modelo entrenado"]
-    H["🔮 Predicciones"]
-    I["📊 accuracy_score"]
-    J["📋 classification_report"]
-    K["🏆 Mejor modelo"]
+    A[" Datos"]
+    B[" train_test_split"]
+    C[" StandardScaler"]
+    D[" Pipeline"]
+    E[" Modelo"]
+    F[" RandomizedSearchCV"]
+    G[" Modelo entrenado"]
+    H[" Predicciones"]
+    I[" accuracy_score"]
+    J[" classification_report"]
+    K[" Mejor modelo"]
 
     A --> B
     B --> C
@@ -435,7 +435,7 @@ flowchart TD
     H --> J
     I --> K
     J --> K
-```o
+```
 
 ---
 
