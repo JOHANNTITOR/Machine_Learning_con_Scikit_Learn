@@ -32,11 +32,12 @@ Imaginemos que una empresa quiere saber si un cliente cancelará su suscripción
 
 Cada cliente posee información como la siguiente:
 
-👤 Edad| 📅 Meses| 💰 Gasto| 📞 Reclamos| 🎯 Canceló
-25| 3| 25| 4| ✅ Sí
-41| 36| 80| 0| ❌ No
-30| 8| 40| 2| ✅ Sí
-58| 72| 120| 0| ❌ No
+| 👤 Edad | 📅 Meses | 💰 Gasto | 📞 Reclamos | 🎯 Canceló |
+|--------:|---------:|---------:|------------:|:----------:|
+| 25 | 3 | 25 | 4 | ✅ Sí |
+| 41 | 36 | 80 | 0 | ❌ No |
+| 30 | 8 | 40 | 2 | ✅ Sí |
+| 58 | 72 | 120 | 0 | ❌ No |
 
 Nuestro objetivo será entrenar un modelo que pueda responder automáticamente:
 
